@@ -2,9 +2,7 @@
 import pandas as pd
 import math
 import numpy as np
-from garmin_fit_sdk import Decoder, Stream
 import os
-from fit_tool.fit_file import FitFile
 import subprocess
 
 from functions.haversine import*
