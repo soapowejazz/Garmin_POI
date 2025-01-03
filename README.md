@@ -10,3 +10,5 @@ Process you need to follow for this is the following:
  - Execute the script
 
 Once complete, the script will save a copy of the original file with an additional "_POI" in the name. This contains the POI in the correct format for Garmin to detect them and show them into a separate screen while navigating.
+
+In the file poi_codes there is a list that contains some keywords and the respective code for the POI. This is so that you can also see a descriptive icon next to the POI in the navigation screen. For example, for a restaurant you will see a fork and a knife. However, for this to work, the keywords written in the list in poi_codes have to be present in the name that you gave to the POI (not case sensitive). If no match is found, the default 53 code will be given which corresponds to the i of information.
